@@ -33,8 +33,6 @@ Ensure that you have Rust and Cargo installed on your system. If you don't, you 
 
 To build the project, navigate to the project directory and run:
 
-arduinoCopy code
-
 `cargo build --release`
 
 The compiled binary can be found in the `target/release` directory.
