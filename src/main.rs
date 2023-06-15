@@ -43,7 +43,6 @@ async fn main() -> io::Result<()> {
     }
     
     let file = File::open(opt.file.unwrap())?;
-    // Continue with your code...   
 
     // print ASCII art banner
     println!("BBBBB    OOOOO    XXXXX");
@@ -59,9 +58,7 @@ async fn main() -> io::Result<()> {
     println!("");
     println!("Starting whois lookup...");
 
-    // shouldn't need this line anymore. let file = File::open(&opt.file)?;
     let reader = BufReader::new(DecodeReaderBytesBuilder::new().build(file));
-    //let reader = BufReader::new(file);
     let lines: Vec<String> = reader.lines().collect::<Result<_, _>>()?;
 
     let pb = ProgressBar::new(lines.len() as u64);
