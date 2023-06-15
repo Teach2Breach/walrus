@@ -37,6 +37,8 @@ To build the project, navigate to the project directory and run:
 
 The compiled binary can be found in the `target/release` directory.
 
+Alternatively, you can find compiled binaries on the releases page.
+
 ## Example Usage
 
 ![image](https://github.com/Teach2Breach/walrus/assets/105792760/8466ee23-1fba-4e7a-8cc1-78aa0d983621)
