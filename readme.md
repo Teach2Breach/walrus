@@ -41,6 +41,7 @@ The compiled binary can be found in the `target/release` directory.
 
 ## Example Usage
 
-![](C:\Users\kirkt\AppData\Roaming\marktext\images\2023-06-15-10-30-01-image.png)
+![image](https://github.com/Teach2Breach/walrus/assets/105792760/87e6bdb8-a7c5-4daa-9d8b-5f6ee28110f3)
+
 
 
